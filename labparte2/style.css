@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: "Nunito Sans", sans-serif;
+}
+
+body{
+    background-color: rgb(125, 80, 230);
+    background-image: url(bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logo_div{
+    margin-left: 100px;
+    margin-top: 60px;
+
+    & img{
+        width: 250px;
+    }
+}
+
+.main{
+    display:flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.imagen{
+    margin-left: 100px;
+    margin-top: 60px;
+    & img{
+        width: 805px;
+    }
+}
+
+.texto{
+    margin-left: 100px;
+    margin-top: 85px;
+    padding: 50px;
+
+    & .title{
+        color: white;
+        font-weight: bold;
+        font-size: 1.8rem;
+        line-height: 60px;
+    }
+    & .informacion{
+        color: white;
+        margin-top: 25px;
+        font-size: 1.2rem;
+        letter-spacing: 0.8px;
+    }
+}
+
+.registro{
+    margin-top: 30px;
+    padding: 15px 50px;
+    border-radius: 50px;
+    width: 200px;
+    border: 0px;
+    color: rgb(125, 80, 230);
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-family: "Nunito Sans", sans-serif;
+    box-shadow: 4px 8px 15px -2px rgba(0,0,0,0.88);
+    transition: .3s ease-in-out;
+
+    &:active{
+        box-shadow: 4px 8px 25px -2px rgba(0,0,0,0.88);
+        transform: scale(0.99);
+    }
+}
+
+.social{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-right: 120px;
+    margin-top: 40px;
+    color: white;
+    transition: .3s ease-in-out;
+
+    & .facebook{
+        font-size: 1.7rem;
+    }
+
+    & .twitter{
+        margin-left: 25px;
+        font-size: 1.7rem;
+    }
+    & .instagram{
+        margin-left: 25px;
+        font-size: 1.7rem;
+    }
+}
+
+
+
